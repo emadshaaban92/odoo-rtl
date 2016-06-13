@@ -86,7 +86,7 @@
 }
 
 .rtl{direction:rtl}
-.rtl *:not(.glyphicon){font-family: 'Droid Arabic Naskh', serif;}
+.rtl *:not(.fa){font-family: 'Droid Arabic Naskh', serif;}
 
 /*
 * reset switch manager fonts
