@@ -541,3 +541,7 @@ view switch manager
   margin : 0px;
   margin-left : 5px !important;
 }
+
+.rtl .oe_button_box {
+  direction : ltr;
+}
