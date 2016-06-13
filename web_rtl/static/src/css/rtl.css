@@ -542,9 +542,34 @@ view switch manager
   margin-left : 5px !important;
 }
 
-.rtl .oe_button_box {
-  direction : ltr;
+.rtl .openerp .oe_form > :not(.oe_form_nosheet) header > button, .openerp .oe_form > .oe_form_nosheet header > button {
+  line-height : 2.5;
 }
-.rtl .fa-search {
+
+.rtl .openerp .oe-control-panel .oe-cp-sidebar {
+  float : left;
+}
+.rtl .openerp .oe-control-panel .oe-right-toolbar {
+  float : left;
+}
+.rtl .openerp .oe-control-panel .oe-right-toolbar .btn {
+  float : left;
+}
+
+.rtl .openerp .oe_button_box {
+  direction : ltr;
+  float : left;
+}
+.rtl .openerp .oe_formview .oe_button_box + .oe_title, .openerp .oe_formview .oe_button_box + .oe_avatar + .oe_title {
+  width: 300px;
+}
+.rtl .openerp .oe_formview .oe_avatar + .oe_title {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.rtl .openerp .oe_avatar {
+  float : right;
+}
+.rtl .openerp .fa-search {
   margin-top : 7px;
 }
