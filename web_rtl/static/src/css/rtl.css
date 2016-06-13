@@ -545,3 +545,6 @@ view switch manager
 .rtl .oe_button_box {
   direction : ltr;
 }
+.rtl .fa-search {
+  margin-top : 7px;
+}
