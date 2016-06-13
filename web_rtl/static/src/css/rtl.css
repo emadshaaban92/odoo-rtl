@@ -573,3 +573,8 @@ view switch manager
 .rtl .openerp .fa-search {
   margin-top : 7px;
 }
+
+.rtl .openerp .o_calendar_buttons .btn {
+  float : left;
+  margin : 1px;
+}
