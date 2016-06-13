@@ -538,6 +538,6 @@ view switch manager
 
 .openerp .oe_form_field_radio .oe_radio_input {
   position: relative;
-	margin : 0px;
-	margin-left : 5px !important;
+  margin : 0px;
+  margin-left : 5px !important;
 }
